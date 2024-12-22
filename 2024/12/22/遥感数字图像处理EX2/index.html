@@ -20,28 +20,51 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="作业-21.统计一幅遥感图像的直方图、统计量。(可借助第三方软件或写代码完成）   利用arcgis软件查看rgb0.tif红色波段的直方图，以及其最小值、最大值、平均值、标准差等统计量。 C++代码，利用gdal库来读取图像的直方图及统计量。 gdal中获取图像直方图的函数是： 12345678910CPLErrGDALRasterBand::GetHistogram   (double dfM">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://example.com/2024/12/22/%E9%81%A5%E6%84%9F%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86EX2/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="作业-21.统计一幅遥感图像的直方图、统计量。(可借助第三方软件或写代码完成）   利用arcgis软件查看rgb0.tif红色波段的直方图，以及其最小值、最大值、平均值、标准差等统计量。 C++代码，利用gdal库来读取图像的直方图及统计量。 gdal中获取图像直方图的函数是： 12345678910CPLErrGDALRasterBand::GetHistogram   (double dfM">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222214643197.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222141828113.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222151015291.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222151104817.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222152941075.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222182223691.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222215146710.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222215256847.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222215323401.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222215349600.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181128102340845.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181128102418271.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181128102459344.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230224080318044.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230224082653059.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230224083801871.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230225125331849.png">
+<meta property="og:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230225130256777.png">
+<meta property="article:published_time" content="2024-12-22T11:40:35.168Z">
+<meta property="article:modified_time" content="2023-02-25T05:04:12.607Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222214643197.png">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2024/12/22/%E9%81%A5%E6%84%9F%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86EX2/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Hexo</title>
+  <title> | Hexo</title>
   
 
 
@@ -139,9 +162,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
@@ -157,10 +181,9 @@
       <meta itemprop="name" content="Hexo">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
+        <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2024/12/22/%E9%81%A5%E6%84%9F%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86EX2/" class="post-title-link" itemprop="url">Untitled</a>
-        </h2>
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -190,7 +213,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>作业-2<br>1.统计一幅遥感图像的直方图、统计量。(可借助第三方软件或写代码完成）</p>
+        <p>作业-2<br>1.统计一幅遥感图像的直方图、统计量。(可借助第三方软件或写代码完成）</p>
 <p><img src="C:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222214643197.png" alt="image-20230222214643197"></p>
 <p><img src="C:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230222141828113.png" alt="image-20230222141828113"></p>
 <p>利用arcgis软件查看rgb0.tif红色波段的直方图，以及其最小值、最大值、平均值、标准差等统计量。</p>
@@ -308,91 +331,30 @@
 <p><img src="C:\Users\yuri\AppData\Roaming\Typora\typora-user-images\image-20230225130256777.png" alt="image-20230225130256777"></p>
 <p>综上可以得出该图像的质量尚可。</p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/12/22/hello-world/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/12/22/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2024-12-22 15:57:59" itemprop="dateCreated datePublished" datetime="2024-12-22T15:57:59+08:00">2024-12-22</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2024/12/22/hello-world/" rel="prev" title="Hello World">
+      <i class="fa fa-chevron-left"></i> Hello World
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
