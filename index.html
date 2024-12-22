@@ -176,7 +176,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2024-12-23 00:19:05" itemprop="dateModified" datetime="2024-12-23T00:19:05+08:00">2024-12-23</time>
+                <time title="Modified: 2024-12-23 00:32:23" itemprop="dateModified" datetime="2024-12-23T00:32:23+08:00">2024-12-23</time>
               </span>
 
           
@@ -196,7 +196,7 @@
 <li>请求上下文（Request context）：当客户端发来请求时，请求上下文抱哈了请求的各种信息，比如请求的URL，请求的HTTP方法</li>
 </ul>
 <h2 id="上下文全局变量"><a href="#上下文全局变量" class="headerlink" title="上下文全局变量"></a>上下文全局变量</h2><p>每一视图函数需要上下文信息，如果将请求报文封装在Request中，得将它作为参数传入视图函数，这将导致大量的重复，增加视图函数的复杂度。</p>
-<p>如果不传入这个参数，那么直接将Flask中导入一个全局的request对象，然后在视图函数中调用Request的属性获取数据。Flask会在每个请求后自动激活当前的上下文，在请求结束后，销毁这个临时的请求上下文</p>
+<p>如果不传入这个参数，那么直接将Flask中导入一个全局的request对象，然后在视图函数中调用Request的属性获取数据。Flask会在每个请求后自动激活当前的上下文，在请求结束后，销毁这个临时的请求上下文。</p>
 <p>flask提供了4个上下文全局变量：</p>
 <table>
 <thead>
